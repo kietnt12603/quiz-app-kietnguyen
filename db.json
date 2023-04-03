@@ -1,9 +1,227 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "listStudents": [
+    {
+      "username": "kietdb12603",
+      "password": "123456",
+      "fullname": "Nguyễn Tuấn Kiệt",
+      "email": "conbadung12603@gmail.com",
+      "gender": "false",
+      "birthday": "2003-06-2",
+      "schoolfee": 4000000,
+      "marks": "0",
+      "id": 1
+    },
+    {
+      "id": 3,
+      "username": "nopt",
+      "password": "1",
+      "fullname": "Phạm Thị Nở",
+      "email": "nopt@fpt.edu.vn",
+      "gender": "false",
+      "birthday": "1993-05-15",
+      "schoolfee": "2000000",
+      "marks": "0",
+      "image": "profile2.jpg"
+    },
+    {
+      "username": "123123",
+      "password": "1",
+      "fullname": "1",
+      "email": "1",
+      "gender": "1",
+      "birthday": "1",
+      "schoolfee": "1",
+      "marks": "1",
+      "image": "1",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "username": "0944940583",
+      "password": "120200",
+      "fullname": "Tran Huu Quan",
+      "email": "bimzc123@gmail.com",
+      "gender": "true",
+      "birthday": "2000-12-02",
+      "schoolfee": 2000000,
+      "image": "profile1.jpg"
+    },
+    {
+      "username": "popo123",
+      "password": "123456",
+      "fullname": "123456",
+      "email": "bimzc123@gmail.com",
+      "gender": "true",
+      "birthday": "2000-12-02",
+      "schoolfee": "15000000",
+      "image": "profile1.jpg",
+      "id": 7
+    },
+    {
+      "id": 8,
+      "username": "popo1111",
+      "password": "123456",
+      "fullname": "Tran Huu Quan",
+      "email": "bimzc123@gmail.com",
+      "gender": "true",
+      "birthday": "2000-12-02",
+      "schoolfee": 15000001,
+      "image": "profile1.jpg"
+    },
+    {
+      "id": 9,
+      "username": "popo123123",
+      "password": "123123",
+      "fullname": "Tran Huu Quan",
+      "email": "bimzc123@gmail.com",
+      "gender": "true",
+      "birthday": "2000-12-02",
+      "schoolfee": 15000006,
+      "image": "profile1.jpg"
+    },
+    {
+      "username": "admin123",
+      "password": "123456",
+      "fullname": "Nguyễn Tuấn Kiệt",
+      "email": "conbadung12603@gmail.com",
+      "gender": "true",
+      "birthday": "2003-06-18",
+      "schoolfee": 2000000,
+      "image": "profile1.jpg",
+      "id": 10
+    },
+    {
+      "username": "admin1",
+      "password": "123456",
+      "fullname": "Nguyễn Tuấn Kiệt123",
+      "email": "tuankiet.aye24@gmail.com",
+      "gender": "false",
+      "birthday": "2003-06-18",
+      "schoolfee": 2000000,
+      "id": 11
+    },
+    {
+      "id": 12,
+      "username": "conbadung12603@gmail.com",
+      "password": "1",
+      "fullname": "Tuấn Kiệt Nguyễn",
+      "email": "conbadung12603@gmail.com",
+      "gender": "true",
+      "birthday": "Tuấn Kiệt Nguyễn",
+      "image": "profile1.jpg"
+    },
+    {
+      "id": "2",
+      "username": "kietdb12603",
+      "password": "123456",
+      "fullname": "Nguyễn Tuấn Kiệt",
+      "email": "conbadung12603@gmail.com",
+      "gender": "true",
+      "birthday": "2003-06-2",
+      "schoolfee": "2000000",
+      "marks": "0"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "listSubjects": [
+    {
+      "Id": "ADAV",
+      "Name": "Lập trình Android nâng cao",
+      "Logo": "ADAV.jpg"
+    },
+    {
+      "Id": "ADBS",
+      "Name": "Lập trình Android cơ bản",
+      "Logo": "ADBS.jpg"
+    },
+    {
+      "Id": "ADTE",
+      "Name": "Kiểm thử và triển khai ứng dụng Android",
+      "Logo": "ADTE.jpg"
+    },
+    {
+      "Id": "ADUI",
+      "Name": "Thiết kế giao diện trên Android",
+      "Logo": "ADUI.jpg"
+    },
+    {
+      "Id": "ASNE",
+      "Name": "Lập trình ASP.NET",
+      "Logo": "ASNE.png"
+    },
+    {
+      "Id": "CLCO",
+      "Name": "Điện toán đám mây",
+      "Logo": "CLCO.jpg"
+    },
+    {
+      "Id": "DBAV",
+      "Name": "SQL Server",
+      "Logo": "DBAV.png"
+    },
+    {
+      "Id": "DBBS",
+      "Name": "Cơ sở dữ liệu",
+      "Logo": "DBBS.png"
+    },
+    {
+      "Id": "GAME",
+      "Name": "Lập trình game 2D",
+      "Logo": "GAME.png"
+    },
+    {
+      "Id": "HTCS",
+      "Name": "HTML5 và CSS3",
+      "Logo": "HTCS.jpg"
+    },
+    {
+      "Id": "INMA",
+      "Name": "Internet Marketing",
+      "Logo": "INMA.jpg"
+    },
+    {
+      "Id": "JAAV",
+      "Name": "Lập trình Java nâng cao",
+      "Logo": "JAAV.png"
+    },
+    {
+      "Id": "JABS",
+      "Name": "Lập trình hướng đối tượng với Java",
+      "Logo": "JABS.png"
+    },
+    {
+      "Id": "JSPR",
+      "Name": "Lập trình JavaScript",
+      "Logo": "JSPR.png"
+    },
+    {
+      "Id": "LAYO",
+      "Name": "Thiết kế layout",
+      "Logo": "LAYO.jpg"
+    },
+    {
+      "Id": "MOWE",
+      "Name": "Thiết kế web cho điện thoại di động",
+      "Logo": "MOWE.png"
+    },
+    {
+      "Id": "PHPP",
+      "Name": "Lập trình PHP",
+      "Logo": "PHPP.png"
+    },
+    {
+      "Id": "PMAG",
+      "Name": "Quản lý dự án với Agile",
+      "Logo": "PMAG.jpg"
+    },
+    {
+      "Id": "VBPR",
+      "Name": "Lập trình VB.NET",
+      "Logo": "VBPR.png"
+    },
+    {
+      "Id": "WEBU",
+      "Name": "Xây dựng trang web",
+      "Logo": "WEBU.jpg"
+    }
+  ]
 }
